@@ -23,6 +23,12 @@ function App() {
     { id: "p004", name: "Onyx Studio Speaker", price: 20000 },
   ];
 
+  var scores = {
+    A: 4, 'A-': 3.75, 'B+': 3.25, B: 3, 'B-': 2.75, 'C+': 2.25, C: 2, 'C-': 1.75, D:1 , F:0
+  };
+
+  
+
   const addItem = () => {
     if (itemRef.current.value == "") {
       alert("Item name is empty");
